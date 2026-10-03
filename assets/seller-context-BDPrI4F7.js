@@ -1,0 +1,1 @@
+import{r as e,t}from"./jsx-runtime-BkSabwWG.js";import{H as n}from"./api-TYXl8aZd.js";var r=e(n(),1),i=t(),a=(0,r.createContext)(null);function o({vendor:e,children:t}){return(0,i.jsx)(a.Provider,{value:e,children:t})}function s(){let e=(0,r.useContext)(a);if(!e)throw Error(`useSellerVendor must be used within the seller layout`);return e}export{s as n,o as t};

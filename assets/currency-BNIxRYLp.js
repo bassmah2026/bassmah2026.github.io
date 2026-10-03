@@ -1,0 +1,1 @@
+var e={code:`SYP`,symbol:`ل.س`,name:`الليرة السورية الجديدة`,usdRate:130,locale:`ar-SY`};function t(t){return Math.round(t*e.usdRate)}function n(t){return`${new Intl.NumberFormat(e.locale).format(Math.round(t))} ${e.symbol}`}function r(e){return n(t(e))}function i(e){return`$${e%1==0?e:e.toFixed(2)}`}export{i as n,r as t};
